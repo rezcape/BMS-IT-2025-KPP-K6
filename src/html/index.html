@@ -1,13 +1,83 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="../css/output.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div class="flex justify-center items-center h-screen">
-      <h1 class="text-3xl font-bold underline">Semangat Rek !!</h1>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMS 2025 KPP - Landing Page</title>
+
+  <!-- Tailwind CSS -->
+  <link href="../css/output.css" rel="stylesheet" />
+
+  <!-- Font Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    .custom-gradient-overlay {
+      background: linear-gradient(
+        to bottom,
+        rgba(38, 15, 18, 0.4) 0%,
+        rgba(38, 15, 18, 0.5) 40%,
+        rgba(38, 15, 18, 0.8) 100%
+      );
+    }
+  </style>
+</head>
+
+<body class="bg-[#260F12] text-white font-['Inter',_sans-serif]">
+
+  <!-- Navbar -->
+  <nav class="w-full bg-[#1c0e10] px-6 py-4 flex items-center">
+    <!-- Kiri: Logo -->
+    <div class="text-xl font-bold">KPP BMS 2025 - K6</div>
+
+    <!-- Tengah: Links -->
+    <div class="flex-1 flex justify-center space-x-6 text-gray-300 ml-6">
+      <a href="#home" class="hover:text-white">Home</a>
+      <a href="#about" class="hover:text-white">About</a>
+      <a href="#portfolio" class="hover:text-white">Portfolio</a>
+      <a href="#contributors" class="hover:text-white">Contributors</a>
     </div>
-  </body>
+
+    <!-- Kanan: Button -->
+    <div>
+      <button class="bg-red-600 hover:bg-red-700 text-white py-2 px-5 rounded-md font-medium">
+        Learn More
+      </button>
+    </div>
+  </nav>
+
+  <section id="home" class="relative w-full h-[700px] overflow-hidden">
+    <!-- Background image -->
+    <img src="../content/bg.jpg" 
+        alt="Background"
+        class="absolute inset-0 w-full h-full object-cover z-0" />
+    <div class="absolute inset-0 z-10 custom-gradient-overlay"></div>
+
+
+    <!-- Content -->
+    <div class="relative z-20 flex flex-col items-center justify-center h-full text-center px-4">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">
+        Basic Media School HMII 2025 KPP
+      </h1>
+      <p class="text-lg max-w-2xl mx-auto mb-6 text-gray-300">
+        Unleash your creative potential with our immersive media program. Learn from industry experts, collaborate on exciting projects, and build a portfolio that showcases your talent.
+      </p>
+      <a href="#apply" class="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-md transition">
+        Apply Now
+      </a>
+    </div>
+  </section>
+
+  <!-- Dummy section biar panjang -->
+  <section class="bg-[#260F12] py-32 px-6">
+    <div class="max-w-4xl mx-auto text-center text-gray-300">
+      <h2 class="text-2xl font-semibold mb-4">Coming Soon: Get to Know BMS</h2>
+      <p>
+        Konten tentang deskripsi kegiatan, portofolio peserta, dan lainnya akan ditampilkan di sini.
+      </p>
+    </div>
+  </section>
+
+</body>
 </html>
