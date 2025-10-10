@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./src/html/**/*.{html,js}"],
+module.exports = {
+  content: [
+    "./src/html/**/*.html", // This tells Tailwind to look in this folder
+    "./script.js", // Also scan your main JavaScript file
+  ],
   theme: {
     extend: {},
   },

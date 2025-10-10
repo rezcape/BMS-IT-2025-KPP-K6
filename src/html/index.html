@@ -16,16 +16,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <style>
-      .custom-gradient-overlay {
-        background: linear-gradient(
-          to bottom,
-          rgba(38, 15, 18, 0.4) 0%,
-          rgba(38, 15, 18, 0.5) 40%,
-          rgba(38, 15, 18, 0.8) 100%
-        );
-      }
-    </style>
   </head>
 
   <body class="bg-[#260F12] text-white font-['Inter',_sans-serif]">
@@ -39,7 +29,7 @@
         <a href="#home" class="hover:text-white">Home</a>
         <a href="#about" class="hover:text-white">About</a>
         <a href="#portfolio" class="hover:text-white">Portfolio</a>
-        <a href="#contributors" class="hover:text-white">Contributors</a>
+        <a href="#members" class="hover:text-white">Our Members</a>
       </div>
 
       <!-- Kanan: Button -->
@@ -82,24 +72,319 @@
       </div>
     </section>
 
-    <!-- Dummy section biar panjang -->
-    <section class="bg-[#260F12] py-32 px-6">
-      <div class="max-w-4xl mx-auto text-center text-gray-300">
-        <h2 class="text-2xl font-semibold mb-4">
-          Coming Soon: Get to Know BMS
-        </h2>
-        <p>
-          Konten tentang deskripsi kegiatan, portofolio peserta, dan lainnya
-          akan ditampilkan di sini.
-        </p>
+    <!-- Get to Know -->
+    <section class="bg-[#260F12]" id="about">
+      <h1 class="text-4xl justify-self-center font-semibold py-32">
+        Get to Know BMS
+      </h1>
+      <div class="flex mx-auto text-gray-300 text-center items-center">
+        <div class="flex w-[90%] gap-24 justify-around mx-auto">
+          <p class="w-1/2 text-justify text-xl">
+            Basic Media Schooling (BMS) merupakan sebuah program pelatihan
+            komprehensif yang dirancang khusus untuk mengasah dan mengembangkan
+            keahlian peserta dalam dunia media dan informasi modern. Pelatihan
+            ini bertujuan untuk memberikan fondasi yang kokoh bagi siapa saja
+            yang ingin berkecimpung di industri kreatif digital. Di dalam
+            program ini, para peserta akan diajarkan secara mendalam mengenai
+            pilar-pilar utama media, mulai dari dasar-dasar desain grafis untuk
+            menciptakan komunikasi visual yang efektif, teknik-teknik
+            fundamental dalam fotografi untuk menangkap momen dan bercerita
+            melalui gambar, pengenalan tentang pengembangan website sebagai
+            platform digital yang esensial, hingga strategi manajemen media
+            online untuk mengelola kehadiran digital secara profesional dan
+            strategis. Secara keseluruhan, BMS membekali pesertanya dengan
+            keterampilan praktis yang terintegrasi untuk siap menghadapi
+            tantangan di dunia media yang terus berkembang.
+          </p>
+          <img
+            src="../../public/posterbms.png"
+            alt="BMS Poster"
+            class="mx-auto rounded-lg shadow-lg w-1/3"
+          />
+        </div>
       </div>
     </section>
-    <!-- OUR CONTRIBUTORS -->
-    <section id="contributors">
-      <div class="container">
-        <h2>Our Contributors</h2>
-        <p>The talented individuals behind our projects</p>
+    <!-- OUR PORTFOLIO -->
+    <section
+      id="portfolio"
+      class="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8"
+    >
+      <div class="w-full max-w-4xl">
+        <h2 class="text-center text-3xl font-bold mb-16">Our Portfolio</h2>
+        <!-- Grid Container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Card 1: Figma Design -->
+          <div
+            class="bg-[#2a1a1a] rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300"
+          >
+            <div class="bg-black h-64 flex items-center justify-center p-8">
+              <!-- Figma Logo SVG -->
+              <svg
+                width="100"
+                height="150"
+                viewBox="0 0 100 150"
+                class="w-24 h-auto"
+              >
+                <defs>
+                  <linearGradient
+                    id="gradF"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%"
+                  >
+                    <stop
+                      offset="0%"
+                      style="stop-color: #f24e1e; stop-opacity: 1"
+                    />
+                    <stop
+                      offset="100%"
+                      style="stop-color: #ff7262; stop-opacity: 1"
+                    />
+                  </linearGradient>
+                  <linearGradient
+                    id="gradI"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%"
+                  >
+                    <stop
+                      offset="0%"
+                      style="stop-color: #a259ff; stop-opacity: 1"
+                    />
+                    <stop
+                      offset="100%"
+                      style="stop-color: #d4a9ff; stop-opacity: 1"
+                    />
+                  </linearGradient>
+                  <linearGradient
+                    id="gradG"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%"
+                  >
+                    <stop
+                      offset="0%"
+                      style="stop-color: #1abcfe; stop-opacity: 1"
+                    />
+                    <stop
+                      offset="100%"
+                      style="stop-color: #92e7ff; stop-opacity: 1"
+                    />
+                  </linearGradient>
+                  <linearGradient
+                    id="gradM"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%"
+                  >
+                    <stop
+                      offset="0%"
+                      style="stop-color: #0acf83; stop-opacity: 1"
+                    />
+                    <stop
+                      offset="100%"
+                      style="stop-color: #8bf0c7; stop-opacity: 1"
+                    />
+                  </linearGradient>
+                </defs>
+                <path
+                  d="M50 0C22.386 0 0 22.386 0 50V100C0 127.614 22.386 150 50 150H50C77.614 150 100 127.614 100 100V50C100 22.386 77.614 0 50 0Z"
+                  fill="#1f1f1f"
+                  transform="translate(0 -25) scale(0.5)"
+                />
+                <circle cx="25" cy="50" r="25" fill="url(#gradF)" />
+                <circle cx="75" cy="50" r="25" fill="url(#gradI)" />
+                <circle
+                  cx="25"
+                  cy="100"
+                  r="25"
+                  fill="url(#gradG)"
+                  transform="translate(0, -25)"
+                />
+                <ellipse
+                  cx="75"
+                  cy="100"
+                  rx="25"
+                  ry="25"
+                  fill="url(#gradM)"
+                  transform="translate(0, -25)"
+                />
+                <path
+                  d="M 25 25 C 25 38.807 36.193 50 50 50 C 63.807 50 75 38.807 75 25 L 50 25 Z"
+                  fill="#FF7262"
+                />
+              </svg>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">Figma Design</h3>
+              <p class="text-gray-400 text-base">
+                Crafting modern, user-friendly, and visually striking digital
+                designs.
+              </p>
+            </div>
+          </div>
 
+          <!-- Card 2: Website Developer -->
+          <div
+            class="bg-[#2a1a1a] rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300"
+          >
+            <div class="bg-black h-64 flex items-center justify-center p-8">
+              <!-- Developer Logo SVG -->
+              <svg
+                width="150"
+                height="150"
+                viewBox="0 0 150 150"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-32 h-32"
+              >
+                <defs>
+                  <linearGradient id="devGrad" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#8A2BE2" />
+                    <stop offset="100%" stop-color="#FFA500" />
+                  </linearGradient>
+                </defs>
+                <path
+                  d="M50.469 148.547L1.92197 100.001C-2.52011 95.5588 1.48911 88.125 7.69897 88.125H59.0625V60.9375H1.92197C-2.52011 56.4954 1.48911 49.0625 7.69897 49.0625L50.469 1.51547C54.911 -2.92661 62.3438 1.08261 62.3438 7.29247V142.708C62.3438 148.917 54.911 152.927 50.469 148.547Z"
+                  fill="url(#devGrad)"
+                />
+                <path
+                  d="M99.531 1.45312L148.078 49.9995C152.52 54.4416 148.511 61.875 142.301 61.875H90.9375V89.0625H148.078C152.52 93.5046 148.511 100.938 142.301 100.938L99.531 148.485C95.089 152.927 87.6562 148.917 87.6562 142.708V7.29247C87.6562 1.08261 95.089 -2.98906 99.531 1.45312Z"
+                  fill="url(#devGrad)"
+                />
+              </svg>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">
+                Website Developer
+              </h3>
+              <p class="text-gray-400 text-base">
+                Building responsive, functional, and innovative websites
+                tailored to your needs.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 3: Videography -->
+          <div
+            class="bg-[#2a1a1a] rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300"
+          >
+            <div class="bg-black h-64 flex items-center justify-center p-8">
+              <!-- Clapperboard SVG -->
+              <svg
+                class="w-32 h-32 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M7 4l6 6-6 6M13 4l6 6-6 6"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M2 6h20v12H2z"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M5 2L19 2"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M5 2L2 6"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M19 2L22 6"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M2 18L5 22"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M22 18L19 22"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M5 22H19"
+                ></path>
+              </svg>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">Videography</h3>
+              <p class="text-gray-400 text-base">
+                Capturing powerful visuals and compelling stories through the
+                lens.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 4: Promotional Content -->
+          <div
+            class="bg-[#2a1a1a] rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300"
+          >
+            <div class="bg-black h-64 flex items-center justify-center p-8">
+              <!-- Megaphone SVG -->
+              <svg
+                class="w-32 h-32 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.354A1.76 1.76 0 015.583 11H3.417a1.76 1.76 0 01-1.416-2.812l2.147-6.354A1.76 1.76 0 015.583 1H7.417a1.76 1.76 0 011.416 2.812l-2.147 6.354A1.76 1.76 0 015.583 11H7.417a1.76 1.76 0 011.416 2.812l2.147 6.354a1.76 1.76 0 01-1.416.592z"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M19 13l-4-4m0 0l-4 4m4-4v12"
+                ></path>
+              </svg>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">
+                Promotional Content
+              </h3>
+              <p class="text-gray-400 text-base">
+                Delivering engaging content that elevates your brand and
+                connects with your audience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OUR MEMBERS -->
+    <section id="members" class="flex py-20 w-[90%] mx-auto h-auto">
+      <div class="container text-center">
+        <h2 id="judul" class="text-3xl font-bold">Our Members</h2>
         <div class="contributors-list">
           <!-- Oryza Qiara Ramadhani -->
           <div class="member">
@@ -167,7 +452,7 @@
     <footer>
       <div class="left">
         <span class="icon">*</span>
-        <span>HMII 2025 KPP</span>
+        <span>BMS HMIT 2025 KPP</span>
       </div>
       <div class="right">© 2024 Basic Media School. All rights reserved.</div>
     </footer>
